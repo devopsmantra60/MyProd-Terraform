@@ -19,3 +19,8 @@ resource "azurerm_storage_account" "example" {
     environment = "staging"
   }
 }
+
+resource "azurerm_resource_group" "example2" {
+  name     = "prodrg1"
+  location = "West us"
+}
